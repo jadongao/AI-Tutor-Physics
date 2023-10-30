@@ -73,6 +73,33 @@ export const CN_MASKS: BuiltinMask[] = [
   //   createdAt: 1688899480511,
   // },
   {
+  //  id:"BpHFxeNNMPPqIWfKZkZlK",
+    avatar:"1f978",
+    name:"经典物理",
+    context:[
+      {
+        id:"ml-0",
+        role:"user",
+        content:"我想让你担任经典物理学的助教。我是一名中学生，会提问有关经典物理的问题。请使用《费曼物理学讲义（第一卷）》的内容来回答我的问题。我的问题是",
+        date:""
+      }
+    ],
+    syncGlobalConfig:true,
+    modelConfig:{
+      model:"gpt-3.5-turbo",
+      temperature:1,
+      max_tokens:2000,
+      presence_penalty:0,
+      frequency_penalty:0,
+      sendMemory:true,
+      historyMessageCount:4,
+      compressMessageLengthThreshold:1000
+    },
+    lang:"cn",
+    builtin:false,
+    createdAt:1688899480512
+  },
+  {
     avatar: "1f978",
     name: "机器学习",
     context: [
