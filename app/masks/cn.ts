@@ -483,7 +483,7 @@ export const CN_MASKS: BuiltinMask[] = [
   //   createdAt: 1688899480537,
   // },
   // {
-  //   avatar: "1f513",
+  //   avatar: "1f513", 
   //   name: "越狱模式 [Jailbreak]",
   //   context: [
   //     {
